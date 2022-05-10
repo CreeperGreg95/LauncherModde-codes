@@ -117,34 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Label5.Text" xml:space="preserve">
-    <value>Lundi 09 mai 2022
-
-Version 1.2.1.4
-
-- Ajout de la page pour les configurations de Minecraft Java Edition
-- Ajout d'alertes quand l'utilisateur est déjà sur la page
-- Ajout de la page des Skins
-- Ajout de la page des notes de version (pour l'instant, redirige vers la page "Quoi de neuf ?" du lanceur)
-- Préparation de la base des données pour les comptes dans la lanceur (vous pouvez savoir qu'est-ce qu'il y aura en regardant le fichier 
-  LauncherModde.exe.config. Bonne chance !)</value>
-  </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>Jeudi 21 avril 2022
-
-Version Windows 2.3.136
-
-Tweaks and improvements
-
-- We've been hard at work ensuring Launcher software updates come through more reliably.
-- Updates to some error messages to make them more useful.
-- Various Launcher bug fixes, stability improvements and updates to distribution pipeline.
-- Added Setting that lets you review the Launcher on the Microsoft Store from within the Launcher.
-- Continued testing more commonly reported user errors and developing mitigation steps to provide to users in Discord &amp; via other support channels.
-
-Bug fixes
-
-⇨ MCL-21109 - Some selected buttons and fields can't be interacted with using both the SPACE and ENTER keys
-⇨ MCL-21100 - Game output log cuts off messages and does not show scroll bar</value>
-  </data>
 </root>

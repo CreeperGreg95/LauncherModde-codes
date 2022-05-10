@@ -29,4 +29,13 @@
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
         MessageBox.Show("Une erreur est survenue | Erreur : 56", "Oups !", MessageBoxButtons.OK, MessageBoxIcon.Error)
     End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        MessageBox.Show("Déjà dessus :|", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Me.Close()
+        BaseLauncherConfig.Show()
+    End Sub
 End Class

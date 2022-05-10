@@ -32,8 +32,8 @@
     <SuiteName>L%27Univers des Jeux Vidéos, Inc</SuiteName>
     <MinimumRequiredVersion>1.0.0.4</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>6</ApplicationRevision>
-    <ApplicationVersion>1.1.0.6</ApplicationVersion>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.2.1.4</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -83,6 +83,9 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -119,6 +122,24 @@
       <DependentUpon>BaseLauncher.vb</DependentUpon>
     </Compile>
     <Compile Include="Files\BaseLauncher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Files\BaseLauncherConfig.Designer.vb">
+      <DependentUpon>BaseLauncherConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Files\BaseLauncherConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Files\BaseLauncherPatchNotes.Designer.vb">
+      <DependentUpon>BaseLauncherPatchNotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Files\BaseLauncherPatchNotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Files\BaseLauncherSkins.Designer.vb">
+      <DependentUpon>BaseLauncherSkins.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Files\BaseLauncherSkins.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Files\Loading.vb">
@@ -164,6 +185,15 @@
     <EmbeddedResource Include="Files\BaseLauncher.resx">
       <DependentUpon>BaseLauncher.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Files\BaseLauncherConfig.resx">
+      <DependentUpon>BaseLauncherConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Files\BaseLauncherPatchNotes.resx">
+      <DependentUpon>BaseLauncherPatchNotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Files\BaseLauncherSkins.resx">
+      <DependentUpon>BaseLauncherSkins.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Files\Loading.resx">
       <DependentUpon>Loading.vb</DependentUpon>
     </EmbeddedResource>
@@ -183,6 +213,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="LauncherModdé_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

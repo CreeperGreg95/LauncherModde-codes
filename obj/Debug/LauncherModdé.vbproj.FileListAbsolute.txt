@@ -1,4 +1,3 @@
-F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModdé.vbproj.AssemblyReference.cache
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModdé.vbproj.GenerateResource.cache
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModdé.vbproj.CoreCompileInputs.cache
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\bin\Debug\LauncherModde.exe.config
@@ -18,3 +17,6 @@ F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherM
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.exe
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.xml
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.pdb
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherConfig.resources
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherPatchNotes.resources
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherSkins.resources

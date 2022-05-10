@@ -5,6 +5,6 @@
     End Sub
 
     Private Sub News_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        BaseLauncherPatchNotes.Show()
     End Sub
 End Class

@@ -26,5 +26,17 @@
     <Setting Name="passwordTest" Type="System.String" Scope="User">
       <Value Profile="(Default)">test</Value>
     </Setting>
+    <Setting Name="username3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Steelial</Value>
+    </Setting>
+    <Setting Name="password3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.</Value>
+    </Setting>
+    <Setting Name="username4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Furiousdinoz</Value>
+    </Setting>
+    <Setting Name="password4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

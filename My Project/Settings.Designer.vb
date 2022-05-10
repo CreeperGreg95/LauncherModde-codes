@@ -149,6 +149,54 @@ Namespace My
                 Me("passwordTest") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Steelial")>  _
+        Public Property username3() As String
+            Get
+                Return CType(Me("username3"),String)
+            End Get
+            Set
+                Me("username3") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute(".")>  _
+        Public Property password3() As String
+            Get
+                Return CType(Me("password3"),String)
+            End Get
+            Set
+                Me("password3") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Furiousdinoz")>  _
+        Public Property username4() As String
+            Get
+                Return CType(Me("username4"),String)
+            End Get
+            Set
+                Me("username4") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute(".")>  _
+        Public Property password4() As String
+            Get
+                Return CType(Me("password4"),String)
+            End Get
+            Set
+                Me("password4") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

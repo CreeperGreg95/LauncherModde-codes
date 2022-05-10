@@ -29,21 +29,21 @@ Partial Class BaseLauncher
         Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button14 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -106,6 +106,24 @@ Partial Class BaseLauncher
         resources.ApplyResources(Me.Panel1, "Panel1")
         Me.Panel1.Name = "Panel1"
         '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Button14.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption
+        resources.ApplyResources(Me.Button14, "Button14")
+        Me.Button14.Name = "Button14"
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'Label3
+        '
+        resources.ApplyResources(Me.Label3, "Label3")
+        Me.Label3.Name = "Label3"
+        '
+        'Label1
+        '
+        resources.ApplyResources(Me.Label1, "Label1")
+        Me.Label1.Name = "Label1"
+        '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark
@@ -116,21 +134,13 @@ Partial Class BaseLauncher
         resources.ApplyResources(Me.Panel2, "Panel2")
         Me.Panel2.Name = "Panel2"
         '
-        'Button8
+        'Button11
         '
-        Me.Button8.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button8.ForeColor = System.Drawing.Color.Lime
-        resources.ApplyResources(Me.Button8, "Button8")
-        Me.Button8.Name = "Button8"
-        Me.Button8.UseVisualStyleBackColor = False
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonFace
-        resources.ApplyResources(Me.Button9, "Button9")
-        Me.Button9.Name = "Button9"
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.Button11.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Button11.ForeColor = System.Drawing.SystemColors.ButtonFace
+        resources.ApplyResources(Me.Button11, "Button11")
+        Me.Button11.Name = "Button11"
+        Me.Button11.UseVisualStyleBackColor = False
         '
         'Button10
         '
@@ -140,13 +150,21 @@ Partial Class BaseLauncher
         Me.Button10.Name = "Button10"
         Me.Button10.UseVisualStyleBackColor = False
         '
-        'Button11
+        'Button9
         '
-        Me.Button11.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button11.ForeColor = System.Drawing.SystemColors.ButtonFace
-        resources.ApplyResources(Me.Button11, "Button11")
-        Me.Button11.Name = "Button11"
-        Me.Button11.UseVisualStyleBackColor = False
+        Me.Button9.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonFace
+        resources.ApplyResources(Me.Button9, "Button9")
+        Me.Button9.Name = "Button9"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Button8.ForeColor = System.Drawing.Color.Lime
+        resources.ApplyResources(Me.Button8, "Button8")
+        Me.Button8.Name = "Button8"
+        Me.Button8.UseVisualStyleBackColor = False
         '
         'GroupBox2
         '
@@ -160,6 +178,14 @@ Partial Class BaseLauncher
         resources.ApplyResources(Me.Button12, "Button12")
         Me.Button12.Name = "Button12"
         Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.BackColor = System.Drawing.Color.Green
+        resources.ApplyResources(Me.Button13, "Button13")
+        Me.Button13.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button13.Name = "Button13"
+        Me.Button13.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
@@ -194,32 +220,6 @@ Partial Class BaseLauncher
         Me.Button4.Image = Global.LauncherModde.My.Resources.Resources.MCDungeons
         Me.Button4.Name = "Button4"
         Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button13
-        '
-        Me.Button13.BackColor = System.Drawing.Color.Green
-        resources.ApplyResources(Me.Button13, "Button13")
-        Me.Button13.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button13.Name = "Button13"
-        Me.Button13.UseVisualStyleBackColor = False
-        '
-        'Label1
-        '
-        resources.ApplyResources(Me.Label1, "Label1")
-        Me.Label1.Name = "Label1"
-        '
-        'Label3
-        '
-        resources.ApplyResources(Me.Label3, "Label3")
-        Me.Label3.Name = "Label3"
-        '
-        'Button14
-        '
-        Me.Button14.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button14.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption
-        resources.ApplyResources(Me.Button14, "Button14")
-        Me.Button14.Name = "Button14"
-        Me.Button14.UseVisualStyleBackColor = False
         '
         'BaseLauncher
         '

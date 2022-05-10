@@ -70,7 +70,7 @@ Partial Class WhatsNews
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(265, 620)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(652, 232)
+        Me.Label5.Size = New System.Drawing.Size(1459, 290)
         Me.Label5.TabIndex = 3
         Me.Label5.Text = resources.GetString("Label5.Text")
         '
