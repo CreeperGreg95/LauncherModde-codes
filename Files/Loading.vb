@@ -1,10 +1,14 @@
 ﻿Public Class Loading
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         If ProgressBar1.Value <= ProgressBar1.Maximum Then ProgressBar1.Value += 1
+        If ProgressBar1.Value = 1 Then
+            My.Computer.Audio.Play(My.Resources.intro_lm_app_first, AudioPlayMode.Background)
+        End If
         If ProgressBar1.Value = 100 Then
             Timer1.Stop()
             Me.Hide()
             BaseLauncher.Show()
+            My.Computer.Audio.Play(My.Resources.intro_lm_app, AudioPlayMode.Background)
         End If
     End Sub
 

@@ -1,6 +1,6 @@
 ﻿Public Class BaseLauncher
     Private Sub BaseLauncher_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        MessageBox.Show("Les configurations pour les jeux commencent dès maintenant ! Ayez bien installé la DERNIERE VERSION du lanceur !", "INFORMATION !", MessageBoxButtons.OK, MessageBoxIcon.Warning)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -24,6 +24,7 @@
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
         MessageBox.Show("Une erreur est survenue | Erreur : 45", "Oups !", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        WaitingLoading.ShowDialog()
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
@@ -37,5 +38,13 @@
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         Me.Close()
         BaseLauncherConfig.Show()
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Loading.Close()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
     End Sub
 End Class

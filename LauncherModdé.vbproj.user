@@ -3,14 +3,17 @@
   <PropertyGroup>
     <PublishUrlHistory>publish\</PublishUrlHistory>
     <InstallUrlHistory>https://otherprojects.000webhostapp.com/LauncherModde/</InstallUrlHistory>
-    <SupportUrlHistory />
-    <UpdateUrlHistory />
+    <SupportUrlHistory>https://otherprojects.000webhostapp.com/LauncherModde/</SupportUrlHistory>
+    <UpdateUrlHistory>https://otherprojects.000webhostapp.com/LauncherModde/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
-    <ErrorReportUrlHistory />
+    <ErrorReportUrlHistory>https://otherprojects.000webhostapp.com/LauncherModde/</ErrorReportUrlHistory>
     <FallbackCulture>fr-FR</FallbackCulture>
-    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
   </PropertyGroup>
   <PropertyGroup>
     <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
   </PropertyGroup>
 </Project>

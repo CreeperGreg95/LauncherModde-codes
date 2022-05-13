@@ -20,3 +20,7 @@ F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherM
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherConfig.resources
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherPatchNotes.resources
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherSkins.resources
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModdé.vbproj.AssemblyReference.cache
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.WaitingLoading.resources
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherConfigModpackSteelialSettings.resources
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.Settings.resources

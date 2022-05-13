@@ -16,7 +16,7 @@
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
-    <Install>false</Install>
+    <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
@@ -27,13 +27,14 @@
     <MapFileExtensions>false</MapFileExtensions>
     <InstallUrl>https://otherprojects.000webhostapp.com/LauncherModde/</InstallUrl>
     <UpdateUrl>https://otherprojects.000webhostapp.com/LauncherModde/</UpdateUrl>
+    <SupportUrl>https://otherprojects.000webhostapp.com/LauncherModde/</SupportUrl>
+    <ErrorReportUrl>https://otherprojects.000webhostapp.com/LauncherModde/</ErrorReportUrl>
     <ProductName>LauncherModdé</ProductName>
     <PublisherName>CreeperGreg95</PublisherName>
     <SuiteName>L%27Univers des Jeux Vidéos, Inc</SuiteName>
-    <MinimumRequiredVersion>1.0.0.4</MinimumRequiredVersion>
-    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>4</ApplicationRevision>
-    <ApplicationVersion>1.2.1.4</ApplicationVersion>
+    <MinimumRequiredVersion>1.3.4.9</MinimumRequiredVersion>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.4.10.6</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -99,6 +100,9 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
+    <Import Include="LauncherModde" />
+    <Import Include="LauncherModde.My" />
+    <Import Include="LauncherModde.My.Resources" />
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
@@ -130,6 +134,12 @@
     <Compile Include="Files\BaseLauncherConfig.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Files\BaseLauncherConfigModpackSteelialSettings.Designer.vb">
+      <DependentUpon>BaseLauncherConfigModpackSteelialSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Files\BaseLauncherConfigModpackSteelialSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Files\BaseLauncherPatchNotes.Designer.vb">
       <DependentUpon>BaseLauncherPatchNotes.vb</DependentUpon>
     </Compile>
@@ -153,6 +163,18 @@
       <DependentUpon>NewsMCLauncher.vb</DependentUpon>
     </Compile>
     <Compile Include="Files\NewsMCLauncher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Files\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Files\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Files\WaitingLoading.Designer.vb">
+      <DependentUpon>WaitingLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Files\WaitingLoading.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Files\WhatsNews.Designer.vb">
@@ -188,6 +210,9 @@
     <EmbeddedResource Include="Files\BaseLauncherConfig.resx">
       <DependentUpon>BaseLauncherConfig.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Files\BaseLauncherConfigModpackSteelialSettings.resx">
+      <DependentUpon>BaseLauncherConfigModpackSteelialSettings.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Files\BaseLauncherPatchNotes.resx">
       <DependentUpon>BaseLauncherPatchNotes.vb</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +224,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Files\NewsMCLauncher.resx">
       <DependentUpon>NewsMCLauncher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Files\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Files\WaitingLoading.resx">
+      <DependentUpon>WaitingLoading.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Files\WhatsNews.resx">
       <DependentUpon>WhatsNews.vb</DependentUpon>
@@ -283,6 +314,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wallpaper_starting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro_lm_app.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro_lm_app_first.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Mgs.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Bongfish.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Asobo.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Mgs.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Bongfish.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Asobo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-a-protege-votre-ordinateur-Windows-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\help.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

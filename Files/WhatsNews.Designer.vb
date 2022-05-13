@@ -35,9 +35,10 @@ Partial Class WhatsNews
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(1814, 39)
+        Me.Button1.Location = New System.Drawing.Point(1863, 42)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(38, 32)
+        Me.Button1.Size = New System.Drawing.Size(28, 26)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "X"
         Me.Button1.UseVisualStyleBackColor = True
@@ -46,7 +47,8 @@ Partial Class WhatsNews
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label1.Location = New System.Drawing.Point(656, 23)
+        Me.Label1.Location = New System.Drawing.Point(714, 27)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(474, 25)
         Me.Label1.TabIndex = 1
@@ -58,9 +60,11 @@ Partial Class WhatsNews
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 88)
+        Me.GroupBox1.Location = New System.Drawing.Point(9, 72)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1884, 933)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(1886, 959)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         '
@@ -68,9 +72,10 @@ Partial Class WhatsNews
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(265, 620)
+        Me.Label5.Location = New System.Drawing.Point(197, 618)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(1459, 290)
+        Me.Label5.Size = New System.Drawing.Size(1569, 261)
         Me.Label5.TabIndex = 3
         Me.Label5.Text = resources.GetString("Label5.Text")
         '
@@ -78,7 +83,8 @@ Partial Class WhatsNews
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(28, 620)
+        Me.Label4.Location = New System.Drawing.Point(-5, 618)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(194, 29)
         Me.Label4.TabIndex = 2
@@ -88,7 +94,8 @@ Partial Class WhatsNews
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(265, 18)
+        Me.Label3.Location = New System.Drawing.Point(229, 57)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(1575, 464)
         Me.Label3.TabIndex = 1
@@ -98,7 +105,8 @@ Partial Class WhatsNews
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(6, 18)
+        Me.Label2.Location = New System.Drawing.Point(4, 57)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(216, 29)
         Me.Label2.TabIndex = 0
@@ -106,12 +114,13 @@ Partial Class WhatsNews
         '
         'WhatsNews
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1902, 1033)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "WhatsNews"
         Me.Text = "Launcher Moddé by CreeperGreg95"
         Me.GroupBox1.ResumeLayout(False)

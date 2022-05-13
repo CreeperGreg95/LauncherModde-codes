@@ -28,6 +28,9 @@ Partial Class BaseLauncher
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -41,9 +44,7 @@ Partial Class BaseLauncher
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -96,6 +97,33 @@ Partial Class BaseLauncher
         resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.TabStop = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        resources.ApplyResources(Me.Button2, "Button2")
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button2.Image = Global.LauncherModde.My.Resources.Resources.MCJava
+        Me.Button2.Name = "Button2"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        resources.ApplyResources(Me.Button3, "Button3")
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button3.Image = Global.LauncherModde.My.Resources.Resources.MCBedrock
+        Me.Button3.Name = "Button3"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        resources.ApplyResources(Me.Button4, "Button4")
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button4.Image = Global.LauncherModde.My.Resources.Resources.MCDungeons
+        Me.Button4.Name = "Button4"
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Panel1
         '
@@ -194,37 +222,17 @@ Partial Class BaseLauncher
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.TabStop = False
         '
-        'Button2
+        'LinkLabel1
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        resources.ApplyResources(Me.Button2, "Button2")
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Image = Global.LauncherModde.My.Resources.Resources.MCJava
-        Me.Button2.Name = "Button2"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        resources.ApplyResources(Me.Button3, "Button3")
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.Image = Global.LauncherModde.My.Resources.Resources.MCBedrock
-        Me.Button3.Name = "Button3"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        resources.ApplyResources(Me.Button4, "Button4")
-        Me.Button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button4.Image = Global.LauncherModde.My.Resources.Resources.MCDungeons
-        Me.Button4.Name = "Button4"
-        Me.Button4.UseVisualStyleBackColor = False
+        resources.ApplyResources(Me.LinkLabel1, "LinkLabel1")
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.TabStop = True
         '
         'BaseLauncher
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button13)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox2)
@@ -240,6 +248,7 @@ Partial Class BaseLauncher
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As Button
@@ -263,4 +272,5 @@ Partial Class BaseLauncher
     Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Button13 As Button
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class
