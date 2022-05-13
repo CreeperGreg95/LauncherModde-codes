@@ -22,7 +22,52 @@ LauncherModde
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
 </member>
+<member name="P:LauncherModde.My.Resources.Resources.help">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.intro_lm_app">
+<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.intro_lm_app_first">
+<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member>
 <member name="P:LauncherModde.My.Resources.Resources.loading">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.Logo_Asobo">
+<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.Logo_Asobo1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.Logo_Bongfish">
+<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.Logo_Bongfish1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.Logo_Mgs">
+<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.Logo_Mgs1">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -63,6 +108,11 @@ LauncherModde
 </summary>
 </member>
 <member name="P:LauncherModde.My.Resources.Resources.wallpaper_starting">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LauncherModde.My.Resources.Resources.Windows_a_protege_votre_ordinateur_Windows_10">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
