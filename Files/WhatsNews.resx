@@ -118,32 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label5.Text" xml:space="preserve">
-    <value>Jeudi 12 mai 2022
+    <value>Lundi 16 mai 2022
 
-Version 1.3.4.9
+Version 1.5.12.10
 
-- Ajout de musiques de démarrage de l'application. *Si vous devinez, vous **pouvez** avoir un prix. A justifier.*
-- Ajout d'un label pour fermer correctement le lanceur. Des processus en arrière plan était toujours démarré et pouvait faire ralentir votre ordinateur
-- Ajout de GIFs pour le démarrage de votre jeu.
-- Début de configurations du prochain serveur moddé
-- Correction des bugs pour que Windows détecte que vous avez installé l'application.</value>
+- Mise à jour de la note de version du lanceur original Minecraft
+- Mise à jour d'une erreur d'orthographe
+- Ajout des paramètres du LauncherModdé (Général et Comptes)</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
-    <value>Jeudi 21 avril 2022
+    <value>Mercredi 11 mai 2022
 
-Version Windows 2.3.136
+Version Windows 2.3.173
 
 Tweaks and improvements
 
-- We've been hard at work ensuring Launcher software updates come through more reliably.
-- Updates to some error messages to make them more useful.
-- Various Launcher bug fixes, stability improvements and updates to distribution pipeline.
-- Added Setting that lets you review the Launcher on the Microsoft Store from within the Launcher.
-- Continued testing more commonly reported user errors and developing mitigation steps to provide to users in Discord &amp; via other support channels.
+- Enhance messaging around ensuring users are signed in to the Microsoft Store with the same account being used in the Launcher.
+- Fix to bug where user was unable to start one game while a different game was installing.
+- Advanced setting option "Clean up cached account tokens" button now gives feedback if you click it so you know it was clicked.
+- "No Network Connection" &amp; failed sign-in attempt prompt weren't being translated and now are (and a few other localization process fixes).
+- Bug relating to failure to fetch user's Minecraft profile.
+- Added ability to "Copy" error code information with one click.
+- Fixes to variety of other bugs, crashes &amp; user issues.
 
 Bug fixes
 
-⇨ MCL-21109 - Some selected buttons and fields can't be interacted with using both the SPACE and ENTER keys
-⇨ MCL-21100 - Game output log cuts off messages and does not show scroll bar</value>
+➡️ MCL-21190 - There is a comma missing after the word "Sorry" within a launcher string used for a generic error message
+➡️ MCL-20088 - Several mentionings of "Minecraft: Java Edition" within the new launcher strings are spelled inconsistently
+➡️ MCL-21173 - The term "roll out" is spelled as "rollout" within one of the new migration notification launcher strings
+➡️ MCL-21262 - Launcher Crashes when clicking the "Browse" Button in the "Edit installation" menu</value>
   </data>
 </root>

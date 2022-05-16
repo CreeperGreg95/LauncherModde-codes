@@ -1,6 +1,7 @@
 ﻿Public Class BaseLauncher
     Private Sub BaseLauncher_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         MessageBox.Show("Les configurations pour les jeux commencent dès maintenant ! Ayez bien installé la DERNIERE VERSION du lanceur !", "INFORMATION !", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        MessageBox.Show("Nous suivons actuellement les problèmes avec les services du lanceur Minecraft, vous pourriez rencontrer des connexions intermittentes. Nous enquêtons - Mojang Studios", "ALERT", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -46,5 +47,10 @@
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Close()
+        Settings.Show()
     End Sub
 End Class

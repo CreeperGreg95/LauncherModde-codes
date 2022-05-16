@@ -45,6 +45,7 @@ Partial Class BaseLauncher
         Me.Button13 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -87,6 +88,7 @@ Partial Class BaseLauncher
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.GroupBox1.Controls.Add(Me.Panel3)
         Me.GroupBox1.Controls.Add(Me.Button7)
         Me.GroupBox1.Controls.Add(Me.Button6)
         Me.GroupBox1.Controls.Add(Me.Button5)
@@ -228,6 +230,12 @@ Partial Class BaseLauncher
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.TabStop = True
         '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.Red
+        resources.ApplyResources(Me.Panel3, "Panel3")
+        Me.Panel3.Name = "Panel3"
+        '
         'BaseLauncher
         '
         resources.ApplyResources(Me, "$this")
@@ -273,4 +281,5 @@ Partial Class BaseLauncher
     Friend WithEvents Label1 As Label
     Friend WithEvents Button13 As Button
     Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents Panel3 As Panel
 End Class
