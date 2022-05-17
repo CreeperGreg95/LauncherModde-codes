@@ -1,7 +1,6 @@
 ﻿Public Class BaseLauncher
     Private Sub BaseLauncher_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        MessageBox.Show("Les configurations pour les jeux commencent dès maintenant ! Ayez bien installé la DERNIERE VERSION du lanceur !", "INFORMATION !", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-        MessageBox.Show("Nous suivons actuellement les problèmes avec les services du lanceur Minecraft, vous pourriez rencontrer des connexions intermittentes. Nous enquêtons - Mojang Studios", "ALERT", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error)
+        MessageBox.Show("Bienvenue !", "LauncherModdé by CreeperGreg95", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -29,7 +28,7 @@
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
-        MessageBox.Show("Une erreur est survenue | Erreur : 56", "Oups !", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Panel4.Visible = True
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
@@ -52,5 +51,18 @@
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Me.Close()
         Settings.Show()
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        Panel4.Visible = False
+        Label3.Text = "Modpack Steelial (Version Minecraft non déterminée)"
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+
+    End Sub
+
+    Private Sub GroupBox2_Enter(sender As Object, e As EventArgs) Handles GroupBox2.Enter
+
     End Sub
 End Class

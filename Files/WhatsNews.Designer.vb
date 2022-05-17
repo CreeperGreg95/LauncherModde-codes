@@ -26,11 +26,11 @@ Partial Class WhatsNews
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,13 +69,22 @@ Partial Class WhatsNews
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(2441, 1147)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(89, 33)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "..."
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(263, 761)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(706, 203)
+        Me.Label5.Size = New System.Drawing.Size(1455, 232)
         Me.Label5.TabIndex = 3
         Me.Label5.Text = resources.GetString("Label5.Text")
         '
@@ -108,15 +117,6 @@ Partial Class WhatsNews
         Me.Label2.Size = New System.Drawing.Size(216, 29)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Minecraft Launcher"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(2441, 1147)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(89, 33)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "..."
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'WhatsNews
         '

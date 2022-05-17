@@ -118,13 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label5.Text" xml:space="preserve">
-    <value>Lundi 16 mai 2022
+    <value>Mardi 17 mai 2022
 
-Version 1.5.12.10
+Version 1.6.4.9
 
-- Mise à jour de la note de version du lanceur original Minecraft
-- Mise à jour d'une erreur d'orthographe
-- Ajout des paramètres du LauncherModdé (Général et Comptes)</value>
+- Ajout des modpacks qui seront disponible dans le lanceur (la priorité sera le "Modpack Commun"
+- Modification de la couleur du label des versions
+- Vous pouvez maintenant choisir le modpack que vous voulez (⚠️Les modpacks ne sont pas encore disponible au téléchargement ! ⚠️)
+- Seul l'option "Modpack Steelial" est disponible dans le menu du lanceur (et fonctionnel de base)</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
     <value>Mercredi 11 mai 2022

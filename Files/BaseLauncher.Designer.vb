@@ -28,6 +28,7 @@ Partial Class BaseLauncher
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -45,12 +46,18 @@ Partial Class BaseLauncher
         Me.Button13 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -100,6 +107,12 @@ Partial Class BaseLauncher
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.TabStop = False
         '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.Red
+        resources.ApplyResources(Me.Panel3, "Panel3")
+        Me.Panel3.Name = "Panel3"
+        '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ControlDarkDark
@@ -147,6 +160,7 @@ Partial Class BaseLauncher
         'Label3
         '
         resources.ApplyResources(Me.Label3, "Label3")
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label3.Name = "Label3"
         '
         'Label1
@@ -230,16 +244,52 @@ Partial Class BaseLauncher
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.TabStop = True
         '
-        'Panel3
+        'Panel4
         '
-        Me.Panel3.BackColor = System.Drawing.Color.Red
-        resources.ApplyResources(Me.Panel3, "Panel3")
-        Me.Panel3.Name = "Panel3"
+        Me.Panel4.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.Panel4.Controls.Add(Me.Button19)
+        Me.Panel4.Controls.Add(Me.Button18)
+        Me.Panel4.Controls.Add(Me.Button17)
+        Me.Panel4.Controls.Add(Me.Button16)
+        Me.Panel4.Controls.Add(Me.Button15)
+        resources.ApplyResources(Me.Panel4, "Panel4")
+        Me.Panel4.Name = "Panel4"
+        '
+        'Button15
+        '
+        resources.ApplyResources(Me.Button15, "Button15")
+        Me.Button15.Name = "Button15"
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'Button16
+        '
+        resources.ApplyResources(Me.Button16, "Button16")
+        Me.Button16.Name = "Button16"
+        Me.Button16.UseVisualStyleBackColor = True
+        '
+        'Button17
+        '
+        resources.ApplyResources(Me.Button17, "Button17")
+        Me.Button17.Name = "Button17"
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'Button18
+        '
+        resources.ApplyResources(Me.Button18, "Button18")
+        Me.Button18.Name = "Button18"
+        Me.Button18.UseVisualStyleBackColor = True
+        '
+        'Button19
+        '
+        resources.ApplyResources(Me.Button19, "Button19")
+        Me.Button19.Name = "Button19"
+        Me.Button19.UseVisualStyleBackColor = True
         '
         'BaseLauncher
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button13)
         Me.Controls.Add(Me.PictureBox1)
@@ -255,6 +305,7 @@ Partial Class BaseLauncher
         Me.Panel2.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel4.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -282,4 +333,10 @@ Partial Class BaseLauncher
     Friend WithEvents Button13 As Button
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Panel3 As Panel
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button17 As Button
+    Friend WithEvents Button16 As Button
+    Friend WithEvents Button18 As Button
+    Friend WithEvents Button19 As Button
 End Class

@@ -10,10 +10,10 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("LauncherModdé")>
 <Assembly: AssemblyDescription("Un lanceur utilisé juste entre amis !")>
-<Assembly: AssemblyCompany("L'Univers des Juex Vidéos, Inc.")>
+<Assembly: AssemblyCompany("L'Univers des Jeux Vidéos, Inc.")>
 <Assembly: AssemblyProduct("LauncherModdé")>
 <Assembly: AssemblyCopyright("Copyright © 2022 CreeperGreg95")>
-<Assembly: AssemblyTrademark("L'Univers des Juex Vidéos, Inc.")>
+<Assembly: AssemblyTrademark("L'Univers des Jeux Vidéos, Inc.")>
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' en utilisant '*', comme indiqué ci-dessous :
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.4.10.6")>
-<Assembly: AssemblyFileVersion("1.4.10.6")>
+<Assembly: AssemblyVersion("1.6.4.9")>
+<Assembly: AssemblyFileVersion("1.6.4.9")>

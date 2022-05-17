@@ -24,3 +24,5 @@ F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherM
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.WaitingLoading.resources
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.BaseLauncherConfigModpackSteelialSettings.resources
 F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.Settings.resources
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.SettingsAccounts.resources
+F:\Visual Studio Projects\2019\LauncherModdé\LauncherModdé\obj\Debug\LauncherModde.DownloadModuleSteelialModpack.resources
